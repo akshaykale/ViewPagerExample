@@ -1,0 +1,22 @@
+package com.akshaykale.viewpagerexample;
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+/**
+ * Created by Akshay on 8/6/2016.
+ */
+public class Fragment_Screen_C extends Fragment {
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        ViewGroup rootView = (ViewGroup) inflater.inflate(
+                R.layout.fragment_layout_c, container, false);
+
+        return rootView;
+    }
+}
